@@ -1,3 +1,5 @@
+//Lavet sammen med Yunus Emre Altintas//
+
 const island = ['-', 'T', '-', '-', '-'];
 
 console.log(`There are ${island.length} moves in the island`)

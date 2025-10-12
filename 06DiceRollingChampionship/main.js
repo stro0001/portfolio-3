@@ -1,13 +1,14 @@
+//lavet sammed med Yunus Emre Altintas//
 console.log(`Welcome to the Dice Rolling Championship!`)
 
 const player1 = prompt("Enter name of Player 1")
-const player2 = prompt("Enter name of Player 2")
+const player2 = prompt("Enter name of Player 2") //kildehenvisning:  https://www.w3schools.com/jsref/met_win_prompt.asp//
 
 console.log(`PLayer 1: ${player1}`)
 console.log(`Player 2: ${player2}`)
 
 function rollDice() {
-    return Math.floor(Math.random() * 6) + 1;
+    return Math.floor(Math.random() * 6) + 1; //kildehenvisning: https://www.w3schools.com/js/js_random.asp?utm_source.com//
 }
 
 let player1Score = 0;

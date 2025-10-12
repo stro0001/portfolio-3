@@ -1,9 +1,11 @@
+//lavet sammed med Yunus Emre Altintas//
 const grades = [90, 55, 83, 68, 100, 93, 77, 59];
+
 console.log(`There are ${grades.length} grades in the class`)
 console.log("Grades:");
 
 function between(grade, min, max) {
-    return grade >= min && grade <= max
+    return grade >= min && grade <= max //kildehenvisning: egne noter//
 }
 
 let sumOfGrades = 0;
@@ -25,7 +27,7 @@ for (let i = 0; i < grades.length; i++) {
     }
 }
 
-const averageOfSum = sumOfGrades / grades.length;
+const averageOfSum = sumOfGrades / grades.length; //kildehenvisning: https://www.w3schools.com/js/js_operators.asp//
 
 if (averageOfSum >= 90) {
     console.log("Overall Class performance: Excellent");
